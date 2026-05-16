@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Create Account</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+	<link href="account.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Login / Create Account</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="button login-button">Login</button>
+                <button type="button" class="button create-account-button">Create Account</button>
+            </div>
+        </form>
+
+        <div class="divider">
+            <div class="divider-line"></div>
+            <div class="divider-text">Or continue with</div>
+            <div class="divider-line"></div>
+        </div>
+
+        <div class="social-login">
+            <button type="button" class="social-button google-button">
+                <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google Icon" class="icon">
+                Continue with Google
+            </button>
+            <button type="button" class="social-button facebook-button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/800px-2021_Facebook_icon.svg.png" alt="Facebook Icon" class="icon">
+                Continue with Facebook
+            </button>
+            <button type="button" class="social-button github-button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Github-logo-2013-official.svg" alt="GitHub Icon" class="icon">
+                Continue with GitHub
+            </button>
+        </div>
+
+        <div class="mt-6 text-center text-sm text-gray-600">
+            By continuing, you agree to our
+            <a href="#" class="underline hover:text-blue-500 font-semibold">Terms of Service</a>
+            and
+            <a href="#" class="underline hover:text-blue-500 font-semibold">Privacy Policy</a>.
+        </div>
+    </div>
+</body>
+</html>
